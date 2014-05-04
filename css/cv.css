@@ -1,0 +1,56 @@
+body {
+    background-color: #f5f7ea;
+}
+
+h1 {
+    color: #649CAF;
+}
+
+h1 small {
+    color: #70AFC4;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+h2.first {
+    margin-top: 5px;
+    color: #6DACAF;
+}
+
+h2.first i {
+    color: #7AC1C4;;
+}
+
+h4, h5, h6 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.lead {
+    font-style: italic;
+}
+
+.container {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border-radius: 5px;
+    background-color: #FFF;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 25px 50px 50px 50px;
+}
+
+.row {
+    margin-bottom: 5px;
+}
+
+.row-header {
+    margin-bottom: 30px;
+}
+
+.img-header {
+    margin-top: 38px;
+}

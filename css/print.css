@@ -1,0 +1,9 @@
+body {
+    zoom: 0.65;
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 0px;
+}
