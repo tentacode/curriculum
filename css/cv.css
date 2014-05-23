@@ -1,35 +1,38 @@
 body {
-    background-color: #f5f7ea;
+    background-color: #f0f0f0;
+    color: #444;
+}
+
+hr {
+    margin-bottom: 25px;
 }
 
 h1 {
-    color: #649CAF;
+    margin-top: 33px;
 }
 
-h1 small {
-    color: #70AFC4;
+h1, h2, h3, h4, h5 {
+    font-family: "Georgia";
+    letter-spacing: 1px;
 }
 
 h2 {
     margin-top: 40px;
+    font-size: 36px;
+}
+
+h1 .symfony, h2 i, h3 i, h4 i {
+    color: #6DACAF !important;
 }
 
 h2.first {
     margin-top: 5px;
-    color: #6DACAF;
-}
-
-h2.first i {
-    color: #7AC1C4;;
 }
 
 h4, h5, h6 {
+    color: #000 !important;
     margin-top: 5px;
     margin-bottom: 5px;
-}
-
-.lead {
-    font-style: italic;
 }
 
 .container {
@@ -40,17 +43,58 @@ h4, h5, h6 {
     background-color: #FFF;
     margin-top: 80px;
     margin-bottom: 80px;
-    padding: 25px 50px 50px 50px;
+    padding: 15px 50px 55px 50px;
+}
+
+.sidebar {
+    font-size: 12px;
+}
+
+.sidebar h4 {
+    margin-bottom: 10px;
 }
 
 .row {
     margin-bottom: 5px;
 }
 
-.row-header {
-    margin-bottom: 30px;
-}
-
 .img-header {
     margin-top: 38px;
+}
+
+.name {
+    text-align: center;
+}
+
+.name h3 {
+    color: #649CAF !important;
+}
+
+.name small {
+    color: #999 !important;
+}
+
+.lead {
+    position: relative;
+    margin-top: 13px;
+    margin-bottom: 57px;
+    font-style: italic;
+    background-color: #edf7f7 !important;
+    border-width: 0px;
+    border-radius: 20px;
+}
+
+.lead .arrow {
+    position: absolute;
+    top: 38px;
+    left: -19px;
+    display: block;
+    border-style: solid;
+    border-color: #edf7f7 #edf7f7 #fff #fff;
+    border-width: 10px;
+}
+
+.badge {
+    background-color: #70AFC4 !important;
+    color: #FFF !important;
 }
