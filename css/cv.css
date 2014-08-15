@@ -98,3 +98,7 @@ h4, h5, h6 {
     background-color: #70AFC4 !important;
     color: #FFF !important;
 }
+
+.align-right {
+    text-align: right;
+}
