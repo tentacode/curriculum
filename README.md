@@ -1,5 +1,12 @@
-# CV Gabriel Pillet
+# Curriculum
 
-Ce CV est fait exclusivement avec Twitter Bootstrap et Font Awesome, plus une feuille de style pour l'impression.
+Voir mon CV : [http://tentacode.github.io/curriculum](http://tentacode.github.io/curriculum)
 
-Le mieux, c'est encore de le voir ici : [http://tentacode.github.io/curriculum](http://tentacode.github.io/curriculum) !
+Ce CV a été réalisé avec :
+
+* Mes doigts ✌️
+* [Twitter Bootstrap](http://getbootstrap.com/)
+* [Font Awesome](http://fontawesome.io/)
+* [HTML Boilerplate](http://www.initializr.com/)
+
+N'hésitez pas à aller voir [mon blog](http://www.tentacode.net/) également.

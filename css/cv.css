@@ -1,8 +1,13 @@
+/* General layout */
 body {
     background-color: #FAFEFA;
     color: #202020;
     font-family: "Merriweather";
     -webkit-print-color-adjust: exact;
+}
+
+.row {
+    margin-bottom: 5px;
 }
 
 hr {
@@ -11,6 +16,16 @@ hr {
     margin-right: 20%;
 }
 
+a, a:hover, a:visited {
+    color: #42A335;
+    cursor: pointer;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/* Hierarchy */
 h1, h2, h3, h4, h5 {
     font-family: "Merriweather";
 }
@@ -53,11 +68,7 @@ h5 {
     line-height: 20px;
 }
 
-a, a:hover, a:visited {
-    color: #42A335;
-    cursor: pointer;
-}
-
+/* Container */
 .container {
     position: relative;
     border: 2px solid #EEE;
@@ -72,6 +83,7 @@ a, a:hover, a:visited {
     overflow-x: hidden;
 }
 
+/* Sidebar */
 .sidebar {
     font-size: 14px;
 }
@@ -79,16 +91,6 @@ a, a:hover, a:visited {
 .sidebar h4 {
     margin-bottom: 10px;
     font-size: 17px;
-}
-
-.row {
-    margin-bottom: 5px;
-}
-
-.img-header {
-    margin-top: 61px;
-    border-radius: 5px;
-    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .name {
@@ -104,6 +106,7 @@ a, a:hover, a:visited {
     color: #202020 !important;
 }
 
+/* Header */
 .punchcard {
     position: absolute;
     height: 140px;
@@ -111,6 +114,12 @@ a, a:hover, a:visited {
     left: 2px;
     right: 4px;
     background: url('../img/punchcard.png') repeat-x;
+}
+
+.img-header {
+    margin-top: 61px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .header-lead {
@@ -144,6 +153,16 @@ a, a:hover, a:visited {
   fill: #202020;
 }
 
+/* Experience */
+.timetable {
+    font-style: italic;
+}
+
+.job-details {
+    margin-top: -5px;
+}
+
+/* Skills */
 .badge {
     font-size: 14px;
     font-weight: 600;
@@ -157,19 +176,9 @@ p.skills {
     margin-bottom: 5px;
 }
 
-.align-right {
-    text-align: right;
-}
+/* RESPONSIVE */
 
-.timetable {
-    font-style: italic;
-}
-
-.job-details {
-    margin-top: -5px;
-}
-
-/* container too small to have margins */
+/* Container too small to have margins */
 @media (max-width: 1300px) {
     .container {
         border-width: 0;
@@ -183,7 +192,7 @@ p.skills {
     }
 }
 
-/* large screen breakpoint */
+/* Large screen breakpoint */
 @media (max-width: 1199px) {
     .header-profile {
         text-align: center;
@@ -213,23 +222,34 @@ p.skills {
     }
 }
 
-/* medium screen breakpoint */
+/* Medium screen breakpoint */
 @media (min-width: 992px) {
     .md-align-right {
         text-align: right;
     }
 }
 
-/* small screen breakpoint */
+/* Small screen breakpoint */
 @media (max-width: 991px) {
     .xs-align-center {
         text-align: center;
     }
 }
 
-/* Titles are too long */
+/* Titles are too long for small screens */
 @media (max-width: 420px) {
     h2 {
         font-size: 22px;
+    }
+}
+
+/* Print */
+@media print {
+    body {
+        zoom: 0.95;
+    }
+
+    .lead  strong {
+        color: #FFF !important;
     }
 }
