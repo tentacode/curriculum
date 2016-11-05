@@ -22,7 +22,7 @@ h2 {
 }
 
 h2.first {
-    margin-top: 0;
+    margin-top: 20px;
 }
 
 h2 i, h3 i, h4 i {
@@ -41,6 +41,16 @@ h4, h5, h6 {
     color: #000 !important;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+h4 {
+    line-height: 24px;
+}
+
+h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 20px;
 }
 
 a, a:hover, a:visited {
@@ -87,7 +97,7 @@ a, a:hover, a:visited {
 
 .name h1 {
     font-size: 26px;
-    color: #42A335 !important;
+    color: #42A335;
 }
 
 .name small {
@@ -109,13 +119,13 @@ a, a:hover, a:visited {
 
 .lead {
     position: relative;
-    margin-bottom: 57px;
     font-style: italic;
     background: #202020 !important;
     color: #FFF !important;
     border: 3px solid #FFF;
     border-radius: 20px;
     box-shadow: none;
+    text-align: justify;
 }
 
 .lead .left-arrow{
@@ -153,6 +163,10 @@ p.skills {
 
 .timetable {
     font-style: italic;
+}
+
+.job-details {
+    margin-top: -5px;
 }
 
 /* container too small to have margins */
@@ -196,5 +210,26 @@ p.skills {
 
     .sidebar .col-xs-6 {
         margin-top: 20px;
+    }
+}
+
+/* medium screen breakpoint */
+@media (min-width: 992px) {
+    .md-align-right {
+        text-align: right;
+    }
+}
+
+/* small screen breakpoint */
+@media (max-width: 991px) {
+    .xs-align-center {
+        text-align: center;
+    }
+}
+
+/* Titles are too long */
+@media (max-width: 420px) {
+    h2 {
+        font-size: 22px;
     }
 }
