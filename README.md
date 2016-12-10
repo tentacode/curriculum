@@ -9,4 +9,4 @@ Ce CV a été réalisé avec :
 * [Font Awesome](http://fontawesome.io/)
 * [HTML Boilerplate](http://www.initializr.com/)
 
-N'hésitez pas à aller voir [mon blog](http://www.tentacode.net/) également.
+N'hésitez pas à aller voir [mon site web](https://github.com/tentacode/tentacode.net) également.
