@@ -246,7 +246,7 @@ p.skills {
 /* Print */
 @media print {
     body {
-        zoom: 1.1;
+        zoom: 1.2;
     }
 
     .lead  strong {
