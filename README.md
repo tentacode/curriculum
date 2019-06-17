@@ -1,6 +1,6 @@
 # Curriculum
 
-Voir mon CV : [http://tentacode.github.io/curriculum](http://tentacode.github.io/curriculum)
+Voir mon CV : [https://tentacode.github.io/curriculum](http://tentacode.github.io/curriculum)
 
 Ce CV a été réalisé avec :
 
