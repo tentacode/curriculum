@@ -1,7 +1,15 @@
+:root {
+    --color-pink: #FF5693;
+    --color-dark: #000;
+    --color-light: #FFF;
+    --background-color: var(--color-light);
+    --text-color: var(--color-dark);
+}
+
 /* General layout */
 body {
-    background-color: #FAFEFA;
-    color: #202020;
+    background-color: var(--background-color);
+    color: var(--text-color);
     font-family: "Merriweather";
     -webkit-print-color-adjust: exact;
 }
@@ -17,7 +25,7 @@ hr {
 }
 
 a, a:hover, a:visited {
-    color: #42A335;
+    color: var(--color-pink);
     cursor: pointer;
 }
 
@@ -36,12 +44,8 @@ h2 {
     font-size: 36px;
 }
 
-h2.first {
-    margin-top: 20px;
-}
-
 h2 i, h3 i, h4 i {
-    color: #8BC65C !important;
+    color: var(--color-pink) !important;
 }
 
 h2 i.fa {
@@ -76,7 +80,7 @@ h5 {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     border-radius: 5px;
-    background-color: #FFF;
+    background-color: var(--background-color);
     margin-top: 70px;
     margin-bottom: 70px;
     padding: 35px 50px 75px 50px;
@@ -99,7 +103,7 @@ h5 {
 
 .name h1 {
     font-size: 26px;
-    color: #42A335;
+    color: var(--color-pink);
 }
 
 .name small {
@@ -123,7 +127,7 @@ h5 {
 }
 
 .header-lead {
-    margin-top: 149px;
+    margin-top: 109px;
 }
 
 .lead {
@@ -226,6 +230,10 @@ p.skills {
 @media (min-width: 992px) {
     .md-align-right {
         text-align: right;
+    }
+
+    h2.first {
+        margin-top: -30px;
     }
 }
 
